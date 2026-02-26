@@ -658,7 +658,7 @@ npm test  --  --testNamePattern="..."
 | `app.js` / `index.js` split | Keeps Supertest from conflicting with `app.listen()`. |
 | Fixture files | Store test data in `tests/data/` for reuse and readability. |
 | `Content-Type` regex | Avoids false failures caused by `; charset=utf-8` in the header value. |
-| Coverage | `npm test -- --coverage` shows what code the tests actually exercise. |
+<!-- | Coverage | `npm test -- --coverage` shows what code the tests actually exercise. | -->
 
 ---
 
